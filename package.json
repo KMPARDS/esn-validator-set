@@ -1,0 +1,26 @@
+{
+  "name": "create-solidity-project",
+  "version": "1.2.1",
+  "description": "Set up a Solidity Smart Contract Project with one command.",
+  "scripts": {
+    "compile": "node compile.js",
+    "test": "node compile.js && mocha --timeout 30000",
+    "deploy": "node deploy.js"
+  },
+  "bin": {
+    "create-solidity-project": "setup.sh"
+  },
+  "author": {
+    "name": "Soham Zemse",
+    "email": "sohamzemse143@gmail.com",
+    "url": "https://www.linkedin.com/in/zemse/"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^4.0.41",
+    "fs-extra": "8.1.0",
+    "ganache-cli": "6.4.5",
+    "mocha": "^6.1.4",
+    "solc": "^0.6.2"
+  }
+}
